@@ -1,0 +1,41 @@
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Unicorn stuff bookmarking Application">
+    <meta name="author" content="Hooria Ishtiaq">
+    <link rel="icon" href="https://www.pngarts.com/files/4/Unicorn-PNG-High-Quality-Image.png">
+    <link href="https://fonts.googleapis.com/css?family=Playball&display=swap" rel="stylesheet">
+    <title>Unicorn Stuff Bookmarking App</title>
+    <link href="style.css" rel="stylesheet">
+</head>
+
+<body onload="fetchBookmarks()">
+    <button id="modalBtn">+</button>
+    <div id="myModal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <form id="Form">
+                <div class="el">
+                    <label>Subject</label>
+                    <input type="text" id="siteName" placeholder="Website Name">
+                </div>
+                <div class="el">
+                    <label>URL</label>
+                    <input type="text" id="siteUrl" placeholder="Website URL">
+                </div>
+                <button type="submit">Submit</button>
+            </form>
+        </div>
+    </div>
+
+    <div id="bookmarksResults"></div>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.js"
+        integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>

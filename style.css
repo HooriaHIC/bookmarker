@@ -1,0 +1,132 @@
+*:focus {
+    outline: none;
+}
+
+body {
+    background: #afd0ff;
+    background-image: url("https://www.pngarts.com/files/4/Unicorn-PNG-High-Quality-Image.png");
+    height: 97vh;
+    background-position: center;
+    font-family: 'Playball', cursive;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: auto 50vw;
+}
+
+
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    padding-top: 100px;
+    left: 0;
+    box-shadow: 0 0 100px rgba(0, 0, 0, 0.09);
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgb(0, 0, 0);
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+.modal-content {
+    background-color: #ffabde;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+}
+
+.close {
+    color: #aaaaaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: #aafff8;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+#modalBtn {
+    position: fixed;
+    z-index: 100;
+    height: 70px;
+    border-radius: 50%;
+    background: #dbafff;
+    color: white;
+    border: none;
+    font-size: 30px;
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.2);
+    width: 70px;
+    top: 85%;
+    left: 2%;
+    cursor: pointer;
+}
+
+
+.bookmas {
+    display: flex;
+    padding: 20px;
+    width: 60%;
+    background: #ffffb0a8;
+    margin-top: 10px !important;
+    border-radius: 5px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.09);
+    margin: auto;
+}
+
+.sitename {
+    color: #dbafff;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    font-size: 25px;
+}
+
+.btns {
+    margin-top: 30px;
+    width: 100%;
+}
+
+button {
+    height: 30px;
+    float: right;
+    background: #dbafff;
+    border: none;
+    color: white;
+    cursor: pointer;
+    margin-right: 3px;
+    width: 60px;
+    border-radius: 30px /30px;
+}
+
+.visit {
+    background: #aafff8;
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+}
+
+form {
+    height: 300px;
+}
+
+form input {
+    height: 50px;
+    background: transparent;
+    width: 100%;
+    border: none;
+    border-bottom: 3px solid #dbafff;
+}
+
+.el {
+    margin-top: 30px;
+    color: rgb(31, 28, 28);
+    margin-bottom: 10px;
+    font-size: 20px;
+}
